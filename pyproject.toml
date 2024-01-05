@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "gunicorn-hw"
+version = "0.1.0"
+description = ""
+authors = ["iTrooz <hey@itrooz.fr>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+gunicorn = "^21.2.0"
+flask = "^3.0.0"
+pytest = "^7.4.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
